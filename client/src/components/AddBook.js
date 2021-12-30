@@ -49,7 +49,7 @@ function AddBook(props) {
                 </select>
             </div>
         
-            <button> ADD+</button>
+            <button> +</button>
 
         </form>
     )

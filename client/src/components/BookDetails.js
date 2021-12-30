@@ -15,8 +15,8 @@ function BookDetails(props) {
             return (
                 <div>
                     <h2> {book.name} </h2>
-                    <p> {book.genre} </p>
-                    <p> {book.author.name} </p>
+                    <p> <em>{book.genre}</em> </p>
+                    <p> By <strong>{book.author.name} </strong></p>
                     <p> All books by this Author </p>
                     <ul className="other-books">
                         {
